@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import openai
 import os
-from pydantic import BaseModel
+from pydantic import BaseModel 
 from dotenv import load_dotenv
 
 # Load environment variables
